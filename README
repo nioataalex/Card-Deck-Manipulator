@@ -1,0 +1,91 @@
+#Copyright Nioata Alexandra 312CAa 2022
+
+Name: Nioata Alexandra
+Class: 312CA
+
+Homework 1 - NOW YOU SEE ME
+
+What I've learned from this homework:
+- more about header files
+- how a linked list works
+- generic data structures
+- pointers at a functions
+
+First of all, the problem starts with reading an action. After this,
+each action will be solved. Also, I used c files and headers with
+suggestive names.(main.c,,functions.c etc.)
+Each function is explained in the program.
+
+I will explain each action now:
+
+1. ADD_DECK:
+- adds a new deck in the lists of decks
+- the number of cards is given from the stdin and they will be added in the deck
+
+2. DEL_DECK:
+- deletes a deck with the given index from the list of deck
+
+3. DEL_CARD:
+- deletes a card with the given index from the deck with the given index
+
+4. ADD_CARDS:
+- add a given number of cards in a deck with a given index
+- similar with the ADD_DECK 
+
+5. DECK_NUMBER:
+- shows the number of decks from the lists of decks
+
+6. DECK_LEN:
+- shows the length of a deck with a given index
+
+7. SHUFFLE_DECK:
+- shuffles the deck with a given index
+- the first half is reversed with the second half
+
+8. MERGE_DECKS:
+- merge 2 decks with given indexes
+- the decks will be deleted from the list of decks
+- the new deck will be add at the final of the list
+
+9. SPLIT_DECK
+- split a deck with the given index in 2
+- the index where the deck will be splitted is given by the stdin
+- the first list will take place of the original one
+- the second list will be the next
+
+10. REVERSE_DECK
+- reverse a deck with the given index
+
+11. SHOW_DECK
+- prints the cards from a deck with the given index
+
+12. SHOW_ALL
+- prints the cards from all decks
+
+13. EXIT
+- the program will stop
+- frees the memory from the list of decks
+
+14. SORT_DECK
+- sorts the decks with a given index in ascending order or after the priority of the symbols {HEART, SPADE, DIAMOND, CLUB}
+
+Also, I will explain the errors:
+
+1. DECK_INDEX_OUT_OF_BOUNDS:
+- appears if the index of a card is negative or is bigger than the size of the list of decks
+
+2. CARD_INDEX_OUT_OF_BOUNDS:
+- appears if the index of a card is negative or is bigger than the size of the deck
+
+3. INVALID_CARD:
+- appears if the symbol is not one of this:{HEART, SPADE, DIAMOND, CLUB} or if the value is not in the between 1 and 14
+
+4. INVALID_COMMAND:
+- appears if the command is not one of the 14 given commands
+
+After every successful operation or error, the output will display
+a suggestive message.
+
+My thoughts about this homework:
+- it was a bit challenging
+- I learned many things and I consolidated some knowledge
