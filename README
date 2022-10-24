@@ -1,11 +1,6 @@
-#Copyright Nioata Alexandra 312CAa 2022
+ NOW YOU SEE ME - CARD DECK MANIPULATOR
 
-Name: Nioata Alexandra
-Class: 312CA
-
-Homework 1 - NOW YOU SEE ME
-
-What I've learned from this homework:
+What I've learned from this project:
 - more about header files
 - how a linked list works
 - generic data structures
@@ -86,6 +81,3 @@ Also, I will explain the errors:
 After every successful operation or error, the output will display
 a suggestive message.
 
-My thoughts about this homework:
-- it was a bit challenging
-- I learned many things and I consolidated some knowledge
